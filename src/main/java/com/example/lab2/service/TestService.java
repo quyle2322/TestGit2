@@ -15,6 +15,6 @@ public class TestService {
         Map<String, String> user = new HashMap<>();
         user.put("name", name);
         String h1;
-        return ResponseEntity.ok(user);
+        return ResponseEntity.ok(name);
     }
 }
