@@ -14,6 +14,7 @@ public class TestService {
     public ResponseEntity<?> doGetData(@RequestParam("name") String name){
         Map<String, String> user = new HashMap<>();
         user.put("name", name);
+        String h1;
         return ResponseEntity.ok(user);
     }
 }
